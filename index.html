@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>TO-DO-LIST</title>
+</head>
+<body>
+    <div>
+        <div class="header">
+            <h1 style="color: whitesmoke;">WORK-TO-DOS</h1>
+            <P style="color: rgb(226, 224, 104);">Enter text into the input field to add items to your list (max.28
+                characters).</P>
+            <p style="color: rgb(40, 207, 151);">Click the item to mark it as complete.</p>
+            <p style="color: rgb(148, 148, 247);">Click the "X" to remove the item from your list.</p>
+        </div>
+        <form type="submit">
+            <input type="text" id="item" placeholder="Name Item..." />
+            <button type="submit">Submit</button>
+        </form>
+        <ul id="mylist">
+            <li>Don't Panic<span>x</span></li>
+            <li>Edit Meeting <span> x </span></li>
+            <li>On The Fly <span> x </span></li>
+        </ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
